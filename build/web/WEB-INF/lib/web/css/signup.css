@@ -1,0 +1,121 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 22 Sep, 2017, 7:20:12 PM
+    Author     : DesmonD
+*/
+
+
+*{
+    
+    margin:0;
+}
+body{
+    background-image: url(../image/signup/personal-cleanliness_264dae7556712487.jpg);
+    background-size:cover;
+    /*background: red;*/
+}
+
+#div23{
+    /*background:red;*/
+    height:800px;
+    width:100%;
+    
+}
+
+#div24{
+    
+    /*background: green;*/
+    height:auto;
+    width:30%;  
+    float:left;
+    
+}
+
+#div25{
+    /*background: yellow;*/
+    height:700px;
+    width:30%;
+    float:left;
+    margin-top:15px;
+    /*background: dodgerblue;*/
+     /*padding: 10% 0% 10% 8%;*/ 
+     padding: 10% 0% 10% 8%;
+     border-radius: 10px;
+    
+}
+
+#div26{
+    
+    /*background:cyan;*/
+   width: 115%;
+   height: 130px;
+   margin-top: -30%;
+   margin-left: -20%
+   
+}
+
+form{
+    margin-top: -2%;
+    margin-left:-80px;
+   
+}
+
+input{
+    background:none;
+    width:80%;
+    border-radius: 5px;
+    padding:8px;
+    border-color:black;
+}
+.para{
+    font-size:14px;
+    margin:15px 0px 2px 0;
+    line-height: 14px; 
+    font-family:Arial, Helvetica;
+    font-weight: bold;
+}
+
+.button{
+    
+    /*width:50%;*/
+    background: #4b8df9; 
+    display: inline-block; 
+    padding: 5px 10px 6px; 
+    color: #fbf7f7; 
+    text-decoration: none; 
+    font-weight: bold; 
+    line-height: 1; 
+    -moz-border-radius: 5px; 
+    -webkit-border-radius: 5px; 
+    border-radius: 5px; 
+    -moz-box-shadow: 0 1px 3px #999; 
+    -webkit-box-shadow: 0 1px 3px #999; 
+    box-shadow: 0 1px 3px #999; 
+    text-shadow: 0 -1px 1px #222; 
+    border: none; 
+    position: relative; 
+    cursor: pointer; 
+    font-size: 14px; 
+    font-family:Verdana, Geneva, sans-serif;
+    width:115px;
+
+}
+
+.button:hover{
+    
+    background-color: #2a78f6;
+}
+
+h1{
+        margin: 20px;   
+        font-size: 40px;
+        font-family: arial;
+        font-weight: 100;
+        margin-left:12%;
+        }
+        
+       

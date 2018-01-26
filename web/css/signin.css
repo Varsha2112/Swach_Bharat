@@ -1,0 +1,139 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 22 Sep, 2017, 8:18:45 PM
+    Author     : DesmonD
+*/
+
+@import "compass/css3";
+
+*{
+    
+    margin:0;
+}
+
+body{
+    
+    /*background:#393549;*/
+    /*background-image: url(../image/signin/u9pn158vv23jz1y12pay.jpeg);*/
+    background-size: 100%;
+    /*background: red;*/
+    
+    
+}
+
+#div3{
+    width:50%;
+    height:500px;
+    /*background: red;*/
+    margin-left:25%;
+    /*margin-top:5%;*/
+    overflow: hidden;
+    border-radius: 5px;
+}
+#login-form{
+    width:100%;
+    height:380px;
+    /*background:white;*/
+    background:none;
+    /*margin-left:25%;*/
+    /*margin-top:5%;*/
+    overflow: hidden;
+    /*border-radius: 5px;*/
+}
+
+.heading{
+    width:100%;
+    height:20px;
+    text-align: center;
+   background: none;
+   color:#6c92f5;;
+   font-weight: bold;
+    padding: 1.5em;
+    font-size: 20px;
+    /*font-family: 'FontAwesome', sans-serif;*/
+    font-family: cursive;
+}
+
+.left{
+    width:100%;
+    /*float: left;*/
+    padding: 2.5em 1.5em 2.5em 1.5em;
+    /*box-sizing: border-box;*/
+     /*background:yellow;*/
+    color:grey;
+    font-family: 'FontAwesome', sans-serif;
+    z-index: 900;
+    
+}
+
+label{
+    display: inline-block;
+    /*color: gray;*/
+    color:#6c92f5;;
+    /*color:#00f50a;*/
+    font-size: 1.1em;
+    margin-top: 0.6em;
+    margin-left:35%;
+    
+    
+}
+
+input[type="email"], input[type="password"] {
+    border: 0.1em solid darken(#eee, 6%);
+    padding: 1em;
+    margin: 0.6em 0; 
+    width: 25%;
+border-radius:0.2em;
+margin-left: 35%;
+box-shadow:0 0 0.2em rgba(darken(#eee, 6%), 0.2);
+ /*transition:0.15s all ease-in-out;*/
+    
+ input[type="email"], input[type="password"]:focus {
+      outline: none;
+      /*border: 0.1em solid darken(#ccc, 6%);*/
+      border:#cccccc;
+    }
+}
+
+    
+    button{
+       background: #6c92f5;;
+       /*background: #00f50a;*/
+    color: #fff;
+    outline: none;
+    /*text-transform: uppercase;*/
+    padding: 1.2em;
+    overflow: hidden;
+    border: none;
+    letter-spacing: 0.1em;
+    /*margin: 0.5em 0;*/
+    font-weight: bold;
+    margin-top:2%;
+    margin-left:43%; 
+border-radius:0.4em; 
+cursor: pointer;
+        
+    }
+    
+    #div2{
+    
+    /*background: green;*/
+    height:auto;
+    width:30%;  
+    margin-left: 46%;
+    /*float:left;*/
+    
+}
+ 
+#img-main{
+    width:100%;
+    height:auto;
+    /*background:#428dcc;*/
+    /*background: #203772;*/
+    background: linear-gradient(to right,#203772 0%,#345ca2 52%,#203772 100%)
+    
+}

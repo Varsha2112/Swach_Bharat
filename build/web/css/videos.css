@@ -1,0 +1,65 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 27 Apr, 2017, 4:07:56 PM
+    Author     : Harshit
+*/
+
+ 
+            .vid1{
+                /*background:red;*/
+                height:400px;
+                width:100%;
+                
+            }
+            
+            .vid2{
+                
+                /*background:cyan;*/
+                height:400px;
+                width:50%;
+                float:left;
+            }
+            
+            .vid3{
+                /*background:yellow;*/
+                height:400px;
+                width:50%;
+                float:right;
+                position:relative;
+                text-align: left;
+                margin:auto;
+                color: white;
+                
+            }
+            
+            
+            .vid4{
+                /*background:blue;*/
+                height:400px;
+                width:100%;
+                
+            }
+            
+            .vid5{
+                
+                /*background:yellow;*/
+                height:400px;
+                width:50%;
+                float:left;
+                position:relative;
+                text-align: left;
+                color: white;
+            }
+            
+            .vid6{
+                /*background:cyan;*/
+                height:400px;
+                width:50%;
+                float:left;
+                
+            }
+            

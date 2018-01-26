@@ -1,0 +1,187 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 24 Sep, 2017, 7:52:08 AM
+    Author     : DesmonD
+*/
+
+
+*{
+    margin:0;
+}
+
+body{
+    
+    background: url(../image/chatbox/chatbox-logo.jpg);
+    background-size: 100%;
+}
+
+.div1{
+    
+                height:200px;
+                width:20%;
+                /*background: green;*/
+                float:left;
+                cursor: pointer;
+}
+
+.div2{
+    
+    height: 200px;
+    width:75%;
+    margin-left: 4%;
+                /*background: yellow;*/
+                float:left;
+}
+
+ol li
+            {   
+                position:relative;
+                list-style:none;
+                float:left;
+                margin-left:7%;
+                left:30%;
+                
+            }
+            
+            ol li a{
+                
+                font-weight:bold;
+                text-decoration:none;
+                color:black;
+                font-family: monospace;
+                font-size:x-large;
+                
+            }
+            
+            ol li a:hover{
+                
+                color:darkred;
+            }
+            
+            ol li:hover
+            {
+                border:2px solid darkred;
+                border-radius:30px;
+                padding:5px;
+                outline:none;
+              
+            }
+            
+            .div3{
+                /*background:red;*/
+                width:90%;
+                height:auto;
+                /*float:left;*/
+                list-style-type: none;
+    margin: 0;
+    padding: 0;
+    float: right;
+                
+            }
+            
+            .chat{
+                
+                width: 84%;
+    height: 300px;
+    border: solid 2px #549fe7;
+    border-radius: 10px;
+    overflow-y: scroll;
+     position: relative;
+    /*top: 190px;*/
+    margin: auto;
+    /*left: 20px;*/
+            }
+            
+            .Inbox{
+                color: red;
+                font-weight: bold;
+                font-family: cursive;
+    font-size: 25px;
+   margin-left:40%;
+                
+            }
+            
+            .div4{
+                /*background: yellow;*/
+                width:90%;
+                height:auto;
+                float:right;
+                margin-top:2%;
+                
+            }
+            
+            .div5{
+                width: 85%;
+    margin: auto;
+    height: 450px;
+    position: relative;
+    /*top: 200px;*/
+    /*background: blue;*/
+                
+            }
+            .div6{
+                 width:100%;
+    margin: auto;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    float: right;
+    /*background: green;*/
+    /*height: 40px;*/
+                
+            }
+            
+            .i1{
+                background-color: rgba(0,0,0,0.1); 
+                border: solid 2px #549fe7;
+    border-radius: 5px; 
+    float: left;
+    padding: 1% 2% 1% 2%;
+    width: 28%; 
+    position: relative;
+    color: red;
+            }
+            
+            .t1{
+               background-color: rgba(0,0,0,0.1); 
+    border: solid 2px #549fe7;
+    border-radius: 5px; 
+    float: left;
+    padding: 1% 2% 1% 2%;
+    width: 95%; 
+    height: 250px;
+    position: relative;
+    top: 10px;
+    color: red; 
+                
+            }
+            
+            .i2{
+                 background-color: rgba(0,0,0,0.1); 
+    border: solid 2px #549fe7;
+    border-radius: 5px; 
+    float: left;
+    padding: 1% 2% 1% 2%;
+    width: 50%; 
+    position: relative;
+    top: 20px;
+    color: red;
+                
+            }
+            
+            .i3{
+                background-color: yellowgreen; 
+    border: solid 2px #549fe7;
+    border-radius: 5px; 
+    float: right;
+    padding: 1% 2% 1% 2%;
+    width: 20%; 
+    position: relative;
+    top: 20px;
+    color: black;
+    margin-right: 2%;
+            }
